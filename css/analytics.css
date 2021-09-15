@@ -1,0 +1,118 @@
+a#navbarDropdown.nav-link.dropdown-toggle {
+  color: #563d7c;
+  font-weight: bold;
+}
+a.dropdown-item {
+  color: #563d7c;
+  font-weight: bolder;
+}
+.header {
+  background-color: #eae5f1f3;
+  color: #563d7c;
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding-left: 5px;
+}
+.container-fluid {
+  margin-top: 0.9em;
+}
+div#piechart {
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+#amount,
+#win-amount,
+#progress-amount {
+  font-size: 4em;
+}
+#amount {
+  background-color: rgb(81, 247, 89);
+  color: white;
+  text-align: center;
+}
+#win-amount {
+  background-color: rgb(126, 207, 245);
+  color: white;
+  text-align: center;
+}
+#progress-amount {
+  background-color: rgb(245, 245, 42);
+  color: white;
+  text-align: center;
+}
+div#amount-title {
+  color: white;
+  background-color: rgb(13, 163, 13);
+  font-size: 1.1em;
+  text-align: center;
+  padding: 2px;
+}
+div#win-amount-title {
+  color: white;
+  background-color: rgb(48, 48, 180);
+  font-size: 1.1em;
+  text-align: center;
+  padding: 2px;
+}
+div#progress-amount-title {
+  color: white;
+  background-color: rgb(224, 224, 88);
+  font-size: 1.1em;
+  text-align: center;
+  padding: 2px;
+}
+
+#deals-analysis-header-main {
+  border-bottom: 5px solid #563d7c;
+  margin-bottom: 10px;
+}
+#deals-analysis-header {
+  background-color: #563d7c;
+  color: white;
+  font-size: 1.8em;
+  padding: 5px;
+  border-radius: 2px;
+}
+/* SIDE BAR */
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 960px) {
+  /*768*/
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}

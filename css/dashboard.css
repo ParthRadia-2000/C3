@@ -1,0 +1,97 @@
+a#navbarDropdown.nav-link.dropdown-toggle {
+  color: #563d7c;
+  font-weight: bold;
+}
+a.dropdown-item {
+  color: #563d7c;
+  font-weight: bolder;
+}
+.header {
+  background-color: #eae5f1f3;
+  color: #563d7c;
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding-left: 5px;
+}
+.container-fluid {
+  margin-top: 0.9em;
+}
+div.details-changer {
+  padding: 5px;
+  margin-bottom: 0.9em;
+}
+div.details-changer {
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px;
+}
+div.details-changer .move-list {
+  /*background-color:#563d7c;
+  color:white;*/
+  border-radius: 5px;
+  padding: 8px;
+}
+div.details-changer .move-calender {
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 4px;
+}
+div.details-changer .move-calender,
+div.details-changer .move-list {
+  cursor: pointer;
+}
+div.details-changer .move-calender.active {
+  background-color: #563d7c;
+  color: white;
+}
+div.details-changer .move-list.active {
+  background-color: #563d7c;
+  color: white;
+}
+div.row-content .main-content {
+  padding: 30px;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+.abc{
+	color:red;
+}
+@media (min-width: 960px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}

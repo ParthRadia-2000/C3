@@ -1,0 +1,68 @@
+.welcome {
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  color: #551a8b;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+  border: #551a8b 2px solid;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+  border: #551a8b 2px solid;
+}
+.progress {
+  height: 3px !important;
+}
+.progress-bar-danger {
+  background-color: #e90f10;
+}
+
+.progress-bar-warning {
+  background-color: #ffad00;
+}
+
+.progress-bar-success {
+  background-color: #02b502;
+}
+li::marker {
+  font-size: 1.4em;
+}
+label {
+  margin-top: 1px;
+  font-size: 1em;
+}
+#error-show {
+  font-size: 2em;
+  text-align: center;
+  margin: 1px;
+  color: red;
+}
+#error-email {
+  color: red;
+}
+.field {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.show-pass {
+  position: absolute;
+  top: 5%;
+  right: 8%;
+}
+
+a.login-btn {
+  color: white !important;
+  width: 180px;
+  background-color: #551a8b;
+  font-size: 18px;
+  margin: 10px auto 5px;
+}

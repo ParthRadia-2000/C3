@@ -1,0 +1,141 @@
+a#navbarDropdown.nav-link.dropdown-toggle {
+  color: #563d7c;
+  font-weight: bold;
+}
+a.dropdown-item {
+  color: #563d7c;
+  font-weight: bolder;
+}
+#page-content-wrapper .header {
+  background-color: #eae5f1f3;
+  color: #563d7c;
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding-left: 5px;
+}
+.item-details {
+  padding: 20px;
+}
+
+.container-fluid {
+  margin-top: 0.9em;
+}
+.kanban {
+  padding: 5px;
+}
+#board-column #board-title-new,
+#board-column #board-title-progress,
+#board-column #board-title-lost,
+#board-column #board-title-win {
+  text-align: center;
+  color: #f9f9f9;
+  font-size: 1.5em;
+  padding: 5px;
+}
+#div-new {
+  background-color: #b7e9f8;
+}
+#div-progress {
+  background-color: rgb(248, 220, 169);
+}
+#div-win {
+  background-color: #e0f898;
+}
+#div-lost {
+  background-color: #f1c8c7;
+}
+#board-column #board-title-new {
+  background-color: #2eceff;
+}
+#board-column #board-value-new {
+  color: #2eceff;
+}
+#board-column #board-title-progress {
+  background-color: orange;
+}
+#board-column #board-value-progress {
+  color: orange;
+}
+#board-column #board-title-win {
+  background-color: #a5de00;
+}
+#board-column #board-value-win {
+  color: #a5de00;
+}
+#board-column #board-value-lost {
+  color: #ff5b55;
+}
+#board-column #board-title-lost {
+  background-color: #ff5b55;
+}
+#board-column #board-value-new,
+#board-column #board-value-progress,
+#board-column #board-value-lost,
+#board-column #board-value-win {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+div#add-deals-new,
+div#add-deals-progress,
+div#add-deals-win,
+div#add-deals-lost {
+  margin: 10px;
+  padding: 3px;
+  font-size: 1.2em;
+  text-align: center;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  cursor: pointer;
+}
+#form-new {
+  margin: 10px;
+  padding: 3px;
+}
+div#content-progress,
+div#content-new,
+div#content-win,
+div#content-lost {
+  padding: 5px;
+}
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 960px) {
+  /*768*/
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}

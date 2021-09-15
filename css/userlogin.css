@@ -1,0 +1,108 @@
+body {
+  font-family: sans-serif;
+}
+.header {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 10px;
+}
+.header .logo {
+  float: left;
+  font-size: 2em;
+  font-weight: bolder;
+}
+.header-right {
+  float: right;
+}
+.header-right a {
+  float: right;
+  background: #551a8b;
+  color: white;
+  margin: 10px;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  border: #551a8b 2px solid;
+  border-radius: 5px;
+}
+
+.header-right a:hover {
+  text-decoration: none;
+}
+.box {
+  text-align: center;
+  padding: 40px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 1rem;
+  border: 5px #551a8b solid;
+}
+.box h4 {
+  color: #551a8b;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5em;
+  font-weight: bolder;
+}
+.fields {
+  width: 100%;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 5px;
+  display: grid;
+  color: #551a8b;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+  border: #551a8b 2px solid;
+  text-align: center;
+}
+.fields:hover {
+  color: #551a8b;
+}
+.fields:active {
+  color: #551a8b;
+}
+.fields i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+
+.fields input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.fields input::placeholder {
+  color: #551a8b;
+  font-weight: 500;
+  font-weight: bold;
+}
+button {
+  background: #551a8b;
+  width: 100%;
+  color: white;
+  margin: 10px 0;
+  height: 55px;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  padding: 0 0.4rem;
+  border: #551a8b 2px solid;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+a.forgot.text-muted {
+  float: right;
+  text-decoration: none;
+  color: red;
+}
